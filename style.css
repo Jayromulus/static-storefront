@@ -75,3 +75,15 @@ body {
 .top-bit {
     margin-top: 5%;
 }
+
+#words::-webkit-scrollbar {
+    width: .5em;
+}
+#words::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+#words::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 5px
+}
